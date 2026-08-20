@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- EDITÁVEL: Título da página (aparece na aba do navegador) -->
+    <title>Lopes Assessoria & Contabilidade | Soluções Contábeis Completas</title>
+
+    <!-- EDITÁVEL: Descrição para SEO -->
+    <meta name="description" content="Lopes Assessoria & Contabilidade - Abertura de empresa, contabilidade mensal, folha de pagamento, impostos e consultoria fiscal. Profissionalismo e confiança para seu negócio.">
+
+    <!-- EDITÁVEL: Palavras-chave para SEO -->
+    <meta name="keywords" content="contabilidade, abertura de empresa, folha de pagamento, impostos, declaração IR, consultoria fiscal">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========================================
+         HEADER / NAVEGAÇÃO
+         EDITÁVEL: Logo, nome da empresa, links do menu
+    ======================================== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <!-- EDITÁVEL: Logo e nome da empresa -->
+            <a href="#" class="nav__logo">
+                <img src="Img/logo contabilidade.jpg" alt="Lopes Logo" class="nav__logo-image">
+                <span class="nav__logo-text">Lopes Assessoria & Contabilidade</span>
+            </a>
+
+            <!-- Menu de navegação -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <!-- EDITÁVEL: Itens do menu - adicione ou remova conforme necessário -->
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Início</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Serviços</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#benefits" class="nav__link">Benefícios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#faq" class="nav__link">FAQ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contato</a>
+                    </li>
+                </ul>
+
+                <!-- Botão de fechar menu mobile -->
+                <div class="nav__close" id="nav-close">
+                    <i class="close-icon">✕</i>
+                </div>
+            </div>
+
+            <!-- Botão toggle menu mobile -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="toggle-icon">☰</i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========================================
+         SEÇÃO HERO (PRINCIPAL)
+         EDITÁVEL: Título, subtítulo, texto do botão
+    ======================================== -->
+    <section class="hero section" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <!-- EDITÁVEL: Título principal -->
+                <h1 class="hero__title">
+                    Sua Contabilidade<br>
+                    em Boas Mãos
+                </h1>
+
+                <!-- EDITÁVEL: Subtítulo/descrição -->
+                <p class="hero__description">
+                    Soluções contábeis completas para empresas de todos os portes.
+                    Profissionalismo, agilidade e atendimento personalizado para
+                    garantir o sucesso do seu negócio.
+                </p>
+
+                <!-- EDITÁVEL: Botões de chamada para ação -->
+                <div class="hero__buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        Solicitar Orçamento
+                    </a>
+                    <a href="#services" class="btn btn-secondary">
+                        Nossos Serviços
+                    </a>
+                </div>
+
+                <!-- EDITÁVEL: Estatísticas/números -->
+                <div class="hero__stats">
+                    <div class="stat">
+                        <h3 class="stat__number">15+</h3>
+                        <p class="stat__text">Anos de Experiência</p>
+                    </div>
+                    <div class="stat">
+                        <h3 class="stat__number">500+</h3>
+                        <p class="stat__text">Empresas Atendidas</p>
+                    </div>
+                    <div class="stat">
+                        <h3 class="stat__number">98%</h3>
+                        <p class="stat__text">Satisfação</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EDITÁVEL: Imagem ilustrativa (pode substituir por uma imagem real) -->
+            <div class="hero__image">
+                <div class="hero__image-circle">
+                    <img src="Img/imagem_03.jpg" alt="Contabilidade Profissional">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO SOBRE NÓS
+         EDITÁVEL: Texto sobre a empresa, missão, valores
+    ======================================== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <!-- EDITÁVEL: Título da seção -->
+            <div class="section__header">
+                <span class="section__subtitle">Quem Somos</span>
+                <h2 class="section__title">Sobre a Lopes Assessoria & Contabilidade</h2>
+            </div>
+
+            <div class="about__container">
+                <!-- EDITÁVEL: Imagem sobre (pode substituir por imagem real) -->
+                <div class="about__image">
+                    <img src="Img/imagem_03.jpg" alt="Escritório de Contabilidade">
+                </div>
+
+                <div class="about__content">
+                    <!-- EDITÁVEL: Texto sobre a empresa -->
+                    <p class="about__description">
+                        A <strong>Lopes Assessoria & Contabilidade</strong> é especializada em oferecer
+                        soluções contábeis completas e personalizadas para empresas de todos
+                        os portes e segmentos.
+                    </p>
+
+                    <p class="about__description">
+                        Com mais de 15 anos de experiência no mercado, nossa equipe de
+                        profissionais qualificados está pronta para atender todas as
+                        necessidades contábeis, fiscais e tributárias do seu negócio.
+                    </p>
+
+                    <!-- EDITÁVEL: Diferenciais -->
+                    <div class="about__features">
+                        <div class="feature">
+                            <span class="feature__icon">✓</span>
+                            <div class="feature__content">
+                                <h3 class="feature__title">Equipe Especializada</h3>
+                                <p class="feature__text">Profissionais certificados e em constante atualização</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">✓</span>
+                            <div class="feature__content">
+                                <h3 class="feature__title">Atendimento Personalizado</h3>
+                                <p class="feature__text">Soluções adequadas à realidade do seu negócio</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">✓</span>
+                            <div class="feature__content">
+                                <h3 class="feature__title">Tecnologia Avançada</h3>
+                                <p class="feature__text">Sistemas modernos para maior eficiência</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- EDITÁVEL: Botão de ação -->
+                    <a href="#contact" class="btn btn-primary">Fale Conosco</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         GALERIA DE IMAGENS
+         EDITÁVEL: Galeria de fotos do escritório
+    ======================================== -->
+    <section class="galeria section">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Nossa Estrutura</span>
+                <h2 class="section__title">Conheça Nosso Escritório</h2>
+            </div>
+            <div class="galeria__grid">
+                <div class="galeria__item galeria__item--large">
+                    <img src="Img/imagem_04.avif" alt="Equipe Contábil">
+                </div>
+                <div class="galeria__item">
+                    <img src="Img/imagem_05.avif" alt="Análise Financeira">
+                </div>
+                <div class="galeria__item">
+                    <img src="Img/imagem_06.avif" alt="Relatórios">
+                </div>
+                <div class="galeria__item">
+                    <img src="Img/imagem_04.avif" alt="Gráficos Financeiros">
+                </div>
+                <div class="galeria__item">
+                    <img src="Img/imagem_05.avif" alt="Consultoria">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO SERVIÇOS
+         EDITÁVEL: Lista de serviços oferecidos
+    ======================================== -->
+    <section class="services section" id="services">
+        <div class="container">
+            <!-- EDITÁVEL: Título da seção -->
+            <div class="section__header">
+                <span class="section__subtitle">O que Fazemos</span>
+                <h2 class="section__title">Nossos Serviços</h2>
+                <p class="section__description">
+                    Oferecemos uma gama completa de serviços contábeis para
+                    atender todas as necessidades da sua empresa
+                </p>
+            </div>
+
+            <!-- EDITÁVEL: Cards de serviços - adicione ou remova conforme necessário -->
+            <div class="services__container">
+
+                <!-- Serviço 1 -->
+                <div class="service__card">
+                    <div class="service__image">
+                        <img src="Img/imagem_07.jpg" alt="Abertura de Empresa">
+                    </div>
+                    <div class="service__icon">🏢</div>
+                    <h3 class="service__title">Abertura de Empresa</h3>
+                    <p class="service__description">
+                        Assessoria completa para abertura de empresas, desde a escolha
+                        do tipo societário até o registro nos órgãos competentes.
+                    </p>
+                    <ul class="service__list">
+                        <li>Registro na Junta Comercial</li>
+                        <li>Obtenção de CNPJ</li>
+                        <li>Alvarás e Licenças</li>
+                        <li>Enquadramento tributário</li>
+                    </ul>
+                </div>
+
+                <!-- Serviço 2 -->
+                <div class="service__card">
+                    <div class="service__image">
+                        <img src="Img/imagem_05.avif" alt="Contabilidade Mensal">
+                    </div>
+                    <div class="service__icon">📈</div>
+                    <h3 class="service__title">Contabilidade Mensal</h3>
+                    <p class="service__description">
+                        Gestão contábil completa e organizada, garantindo conformidade
+                        e informações precisas para tomada de decisão.
+                    </p>
+                    <ul class="service__list">
+                        <li>Escrituração contábil</li>
+                        <li>Balanços e balancetes</li>
+                        <li>Demonstrações financeiras</li>
+                        <li>Relatórios gerenciais</li>
+                    </ul>
+                </div>
+
+                <!-- Serviço 3 -->
+                <div class="service__card">
+                    <div class="service__image">
+                        <img src="Img/imagem_06.avif" alt="Folha de Pagamento">
+                    </div>
+                    <div class="service__icon">👥</div>
+                    <h3 class="service__title">Folha de Pagamento</h3>
+                    <p class="service__description">
+                        Processamento completo da folha de pagamento e gestão de
+                        obrigações trabalhistas e previdenciárias.
+                    </p>
+                    <ul class="service__list">
+                        <li>Cálculo de salários e encargos</li>
+                        <li>Férias e 13º salário</li>
+                        <li>Admissão e rescisão</li>
+                        <li>eSocial e FGTS</li>
+                    </ul>
+                </div>
+
+                <!-- Serviço 4 -->
+                <div class="service__card">
+                    <div class="service__image">
+                        <img src="Img/imagem_05.avif" alt="Gestão de Impostos">
+                    </div>
+                    <div class="service__icon">💰</div>
+                    <h3 class="service__title">Gestão de Impostos</h3>
+                    <p class="service__description">
+                        Planejamento e apuração de impostos com foco na redução
+                        legal da carga tributária da sua empresa.
+                    </p>
+                    <ul class="service__list">
+                        <li>Apuração de tributos</li>
+                        <li>Planejamento tributário</li>
+                        <li>Recuperação de créditos</li>
+                        <li>Obrigações acessórias</li>
+                    </ul>
+                </div>
+
+                <!-- Serviço 5 -->
+                <div class="service__card">
+                    <div class="service__image">
+                        <img src="Img/imagem_04.avif" alt="Declaração IR">
+                    </div>
+                    <div class="service__icon">📋</div>
+                    <h3 class="service__title">Declaração IR</h3>
+                    <p class="service__description">
+                        Elaboração e envio da declaração de imposto de renda para
+                        pessoas físicas e jurídicas com total segurança.
+                    </p>
+                    <ul class="service__list">
+                        <li>IRPF (Pessoa Física)</li>
+                        <li>IRPJ (Pessoa Jurídica)</li>
+                        <li>Análise de deduções</li>
+                        <li>Retificações</li>
+                    </ul>
+                </div>
+
+                <!-- Serviço 6 -->
+                <div class="service__card">
+                    <div class="service__image">
+                        <img src="Img/imagem_06.avif" alt="Consultoria Fiscal">
+                    </div>
+                    <div class="service__icon">💡</div>
+                    <h3 class="service__title">Consultoria Fiscal</h3>
+                    <p class="service__description">
+                        Orientação especializada em questões fiscais e tributárias
+                        para otimização e conformidade legal.
+                    </p>
+                    <ul class="service__list">
+                        <li>Análise fiscal</li>
+                        <li>Planejamento estratégico</li>
+                        <li>Adequação à legislação</li>
+                        <li>Suporte em fiscalizações</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO DESTAQUES/DIFERENCIAIS
+         EDITÁVEL: Principais diferenciais da empresa
+    ======================================== -->
+    <section class="highlights section">
+        <div class="container">
+            <!-- EDITÁVEL: Título da seção -->
+            <div class="section__header">
+                <span class="section__subtitle">Por Que Escolher</span>
+                <h2 class="section__title">Nossos Diferenciais</h2>
+            </div>
+
+            <!-- EDITÁVEL: Cards de destaques -->
+            <div class="highlights__container">
+
+                <div class="highlight__card">
+                    <div class="highlight__icon">🎯</div>
+                    <h3 class="highlight__title">Precisão e Qualidade</h3>
+                    <p class="highlight__description">
+                        Processos rigorosos de revisão garantem informações precisas
+                        e confiáveis para seu negócio.
+                    </p>
+                </div>
+
+                <div class="highlight__card">
+                    <div class="highlight__icon">⚡</div>
+                    <h3 class="highlight__title">Agilidade</h3>
+                    <p class="highlight__description">
+                        Cumprimento de prazos e respostas rápidas para manter sua
+                        empresa sempre em dia.
+                    </p>
+                </div>
+
+                <div class="highlight__card">
+                    <div class="highlight__icon">🔒</div>
+                    <h3 class="highlight__title">Segurança</h3>
+                    <p class="highlight__description">
+                        Proteção total das informações com sistemas seguros e
+                        confidencialidade garantida.
+                    </p>
+                </div>
+
+                <div class="highlight__card">
+                    <div class="highlight__icon">💬</div>
+                    <h3 class="highlight__title">Atendimento Próximo</h3>
+                    <p class="highlight__description">
+                        Suporte dedicado e comunicação clara para solucionar suas
+                        dúvidas rapidamente.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO BENEFÍCIOS
+         EDITÁVEL: Benefícios de contratar os serviços
+    ======================================== -->
+    <section class="benefits section" id="benefits">
+        <div class="container">
+            <!-- EDITÁVEL: Título da seção -->
+            <div class="section__header">
+                <span class="section__subtitle">Vantagens</span>
+                <h2 class="section__title">Benefícios de Trabalhar Conosco</h2>
+            </div>
+
+            <div class="benefits__container">
+
+                <div class="benefit__item">
+                    <div class="benefit__icon">✓</div>
+                    <div class="benefit__content">
+                        <h3 class="benefit__title">Redução de Custos</h3>
+                        <p class="benefit__description">
+                            Planejamento tributário eficiente para reduzir legalmente
+                            sua carga tributária e aumentar a lucratividade.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="benefit__item">
+                    <div class="benefit__icon">✓</div>
+                    <div class="benefit__content">
+                        <h3 class="benefit__title">Conformidade Legal</h3>
+                        <p class="benefit__description">
+                            Mantenha sua empresa em dia com todas as obrigações fiscais
+                            e trabalhistas, evitando multas e penalidades.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="benefit__item">
+                    <div class="benefit__icon">✓</div>
+                    <div class="benefit__content">
+                        <h3 class="benefit__title">Foco no Negócio</h3>
+                        <p class="benefit__description">
+                            Delegue a parte contábil para especialistas e concentre-se
+                            no crescimento do seu negócio.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="benefit__item">
+                    <div class="benefit__icon">✓</div>
+                    <div class="benefit__content">
+                        <h3 class="benefit__title">Decisões Estratégicas</h3>
+                        <p class="benefit__description">
+                            Relatórios e análises detalhadas para embasar suas decisões
+                            empresariais com dados confiáveis.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="benefit__item">
+                    <div class="benefit__icon">✓</div>
+                    <div class="benefit__content">
+                        <h3 class="benefit__title">Tranquilidade</h3>
+                        <p class="benefit__description">
+                            Tenha paz de espírito sabendo que profissionais experientes
+                            cuidam da contabilidade da sua empresa.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="benefit__item">
+                    <div class="benefit__icon">✓</div>
+                    <div class="benefit__content">
+                        <h3 class="benefit__title">Crescimento Sustentável</h3>
+                        <p class="benefit__description">
+                            Suporte contábil e consultivo para crescer de forma
+                            organizada e sustentável.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO FAQ (PERGUNTAS FREQUENTES)
+         EDITÁVEL: Perguntas e respostas comuns
+    ======================================== -->
+    <section class="faq section" id="faq">
+        <div class="container">
+            <!-- EDITÁVEL: Título da seção -->
+            <div class="section__header">
+                <span class="section__subtitle">Dúvidas</span>
+                <h2 class="section__title">Perguntas Frequentes</h2>
+            </div>
+
+            <!-- EDITÁVEL: Acordeão de perguntas - adicione ou remova itens -->
+            <div class="faq__container">
+
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3 class="faq__title">Quanto tempo leva para abrir uma empresa?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>
+                            O processo de abertura de empresa geralmente leva de 5 a 15 dias úteis,
+                            dependendo do tipo de empresa e da documentação necessária. Nossa equipe
+                            agiliza todo o processo para você começar a operar o quanto antes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3 class="faq__title">Qual o melhor regime tributário para minha empresa?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>
+                            O regime tributário ideal depende de diversos fatores como faturamento,
+                            tipo de atividade e estrutura da empresa. Fazemos uma análise completa
+                            e personalizada para identificar o melhor enquadramento para seu negócio,
+                            seja Simples Nacional, Lucro Presumido ou Lucro Real.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3 class="faq__title">Como funciona o atendimento?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>
+                            Oferecemos atendimento personalizado através de diversos canais: WhatsApp,
+                            e-mail, telefone e reuniões presenciais ou online. Cada cliente tem um
+                            contador responsável que acompanha todo o processo e está disponível
+                            para esclarecer dúvidas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3 class="faq__title">Vocês atendem empresas de qualquer porte?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>
+                            Sim! Atendemos desde MEI (Microempreendedor Individual) até empresas
+                            de médio e grande porte. Nossos serviços são adaptados às necessidades
+                            específicas de cada cliente, independente do tamanho do negócio.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3 class="faq__title">É possível migrar minha contabilidade para a Lopes Assessoria & Contabilidade?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>
+                            Sim, o processo de migração é simples e seguro. Nossa equipe cuida de
+                            toda a transição, solicitando documentos necessários e garantindo
+                            continuidade sem complicações. Fazemos uma análise completa da situação
+                            atual da sua empresa antes da migração.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3 class="faq__title">Quais documentos preciso enviar mensalmente?</h3>
+                        <span class="faq__icon">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>
+                            Os documentos variam conforme o tipo de empresa, mas geralmente incluem:
+                            notas fiscais de entrada e saída, extratos bancários, comprovantes de
+                            pagamento, contratos e outros documentos fiscais. Orientamos você sobre
+                            todos os documentos necessários e facilitamos o envio através de plataforma
+                            digital segura.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO CONTATO
+         EDITÁVEL: Informações de contato e formulário
+    ======================================== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <!-- EDITÁVEL: Título da seção -->
+            <div class="section__header">
+                <span class="section__subtitle">Fale Conosco</span>
+                <h2 class="section__title">Entre em Contato</h2>
+                <p class="section__description">
+                    Estamos prontos para atender você e esclarecer todas as suas dúvidas
+                </p>
+            </div>
+
+            <div class="contact__container">
+
+                <!-- EDITÁVEL: Informações de contato -->
+                <div class="contact__info">
+                    <h3 class="contact__info-title">Informações de Contato</h3>
+
+                    <a href="https://wa.me/5544999473889?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20a%20contabilidade." class="contact__item contact__item--link" target="_blank" rel="noopener noreferrer">
+                        <div class="contact__item-icon contact__item-icon--whatsapp" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.5 0 .14 5.35.14 11.92c0 2.1.55 4.16 1.6 5.98L0 24l6.25-1.64A11.94 11.94 0 0 0 12.07 24c6.56 0 11.93-5.35 11.93-11.92 0-3.2-1.25-6.22-3.48-8.6ZM12.07 21.8a9.88 9.88 0 0 1-5.04-1.37l-.36-.22-3.71.97 1-3.62-.24-.37a9.88 9.88 0 0 1-1.52-5.23c0-5.46 4.46-9.91 9.94-9.91a9.9 9.9 0 0 1 7.03 3.02A9.9 9.9 0 0 1 12.07 21.8Zm5.43-7.41c-.3-.15-1.78-.88-2.06-.98-.27-.1-.47-.15-.67.15-.2.3-.77.98-.94 1.18-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.43-1.51-.9-.8-1.5-1.79-1.68-2.09-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.03-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.38-.27.3-1.03 1.01-1.03 2.46s1.06 2.85 1.2 3.05c.15.2 2.08 3.18 5.04 4.46.7.3 1.25.48 1.68.62.71.22 1.35.19 1.86.11.57-.09 1.77-.72 2.02-1.41.25-.7.25-1.3.18-1.42-.08-.12-.28-.2-.58-.35Z"/>
+                            </svg>
+                        </div>
+                        <div class="contact__item-content">
+                            <h4 class="contact__item-title">WhatsApp</h4>
+                            <p class="contact__item-text">(44) 99947-3889</p>
+                        </div>
+                    </a>
+
+                    <a href="https://compose.mail.yahoo.com/?to=lopes_contabilidade%40yahoo.com&subject=Quero%20saber%20mais%20sobre%20os%20servi%C3%A7os&body=Quero%20saber%20mais%20sobre%20os%20servi%C3%A7os." class="contact__item contact__item--link" target="_blank" rel="noopener noreferrer">
+                        <div class="contact__item-icon">✉️</div>
+                        <div class="contact__item-content">
+                            <h4 class="contact__item-title">E-mail</h4>
+                            <p class="contact__item-text">lopes_contabilidade@yahoo.com</p>
+                        </div>
+                    </a>
+
+                    <div class="contact__item">
+                        <div class="contact__item-icon contact__item-icon--maps" aria-label="Localização do escritório">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M12 2.75a7.25 7.25 0 0 1 7.25 7.25c0 5.41-7.25 11.25-7.25 11.25S4.75 15.41 4.75 10A7.25 7.25 0 0 1 12 2.75Zm0 3.5a3.75 3.75 0 1 0 0 7.5a3.75 3.75 0 0 0 0-7.5Z"/>
+                            </svg>
+                        </div>
+                        <div class="contact__item-content">
+                            <h4 class="contact__item-title">Endereço</h4>
+                            <p class="contact__item-text">
+                                Rua Cabo Frio, 220 - Atlântico IV<br>
+                                Cianorte - PR, CEP 87.202-308
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <div class="contact__item-icon">🕐</div>
+                        <div class="contact__item-content">
+                            <h4 class="contact__item-title">Horário de Atendimento</h4>
+                            <p class="contact__item-text">
+                                Segunda a Sexta: 8h às 18h<br>
+                                Sábado: 8h às 12h
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER (RODAPÉ)
+         EDITÁVEL: Informações do rodapé
+    ======================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+
+                <!-- EDITÁVEL: Informações da empresa -->
+                <div class="footer__content">
+                    <div class="footer__logo">
+                        <img src="Img/logo contabilidade.jpg" alt="Lopes Logo" class="footer__logo-icon">
+                        <div class="footer__brand">
+                            <span class="footer__brand-name">Lopes</span>
+                            <span class="footer__brand-subtitle">Assessoria &amp; Contabilidade</span>
+                        </div>
+                    </div>
+                    <p class="footer__description">
+                        Soluções práticas para empresas que desejam organização,
+                        segurança e crescimento com o suporte contábil certo.
+                    </p>
+                </div>
+
+                <!-- EDITÁVEL: Navegação -->
+                <div class="footer__content">
+                    <h3 class="footer__title">Navegação</h3>
+                    <ul class="footer__links">
+                        <li><a href="#home" class="footer__link">Início</a></li>
+                        <li><a href="#about" class="footer__link">Sobre</a></li>
+                        <li><a href="#services" class="footer__link">Serviços</a></li>
+                        <li><a href="#contact" class="footer__link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- EDITÁVEL: Serviços -->
+                <div class="footer__content">
+                    <h3 class="footer__title">Serviços</h3>
+                    <ul class="footer__links">
+                        <li><a href="#services" class="footer__link">Abertura de Empresa</a></li>
+                        <li><a href="#services" class="footer__link">Contabilidade Mensal</a></li>
+                        <li><a href="#services" class="footer__link">Folha de Pagamento</a></li>
+                        <li><a href="#services" class="footer__link">Consultoria Fiscal</a></li>
+                    </ul>
+                </div>
+
+                <!-- EDITÁVEL: Contato -->
+                <div class="footer__content">
+                    <h3 class="footer__title">Contato</h3>
+                    <ul class="footer__links">
+                        <li class="footer__info"><span>WhatsApp:</span> <a href="https://wa.me/5544999473889?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20a%20contabilidade." class="footer__link footer__link--whatsapp" target="_blank" rel="noopener noreferrer">(44) 99947-3889</a></li>
+                        <li class="footer__info"><span>E-mail:</span> <a href="https://compose.mail.yahoo.com/?to=lopes_contabilidade%40yahoo.com&subject=Quero%20saber%20mais%20sobre%20os%20servi%C3%A7os&body=Quero%20saber%20mais%20sobre%20os%20servi%C3%A7os." class="footer__link footer__link--mail" target="_blank" rel="noopener noreferrer">lopes_contabilidade@yahoo.com</a></li>
+                        <li class="footer__info"><span>Endereço:</span> Rua Cabo Frio, 220 - Atlântico IV - Cianorte-PR</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- EDITÁVEL: Direitos autorais -->
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2026 Lopes Assessoria & Contabilidade. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================================
+         BOTÃO VOLTAR AO TOPO
+    ======================================== -->
+    <a href="#" class="scroll-top" id="scroll-top">
+        <span class="scroll-top__icon">↑</span>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
