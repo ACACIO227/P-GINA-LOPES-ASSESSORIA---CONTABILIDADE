@@ -279,6 +279,63 @@ button {
     color: var(--text-primary);
 }
 
+.audio-toggle {
+    position: fixed;
+    top: calc(var(--header-height) + 12px);
+    right: 24px;
+    z-index: 999;
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--gray-200);
+    border-radius: 50%;
+    background: var(--bg-white);
+    box-shadow: var(--shadow-md);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.audio-toggle:hover {
+    transform: scale(1.06);
+    box-shadow: var(--shadow-lg);
+}
+
+.audio-toggle:focus-visible {
+    outline: 3px solid var(--primary-light);
+    outline-offset: 3px;
+}
+
+.audio-toggle__icon {
+    width: 28px;
+    height: 28px;
+}
+
+.audio-toggle__speaker {
+    fill: #dc2626;
+}
+
+.audio-toggle__wave {
+    fill: none;
+    stroke: #2563eb;
+    stroke-linecap: round;
+    stroke-width: 3;
+    opacity: 0;
+}
+
+.audio-toggle.is-playing .audio-toggle__wave {
+    opacity: 1;
+    animation: audio-wave 1s ease-in-out infinite alternate;
+}
+
+.audio-toggle.is-playing .audio-toggle__wave--outer {
+    animation-delay: 0.2s;
+}
+
+@keyframes audio-wave {
+    from { opacity: 0.45; }
+    to { opacity: 1; }
+}
+
 /* ========================================
    HERO SECTION
 ======================================== */
@@ -1238,6 +1295,10 @@ button {
         bottom: 20px;
         width: 45px;
         height: 45px;
+    }
+
+    .audio-toggle {
+        right: 16px;
     }
 }
 

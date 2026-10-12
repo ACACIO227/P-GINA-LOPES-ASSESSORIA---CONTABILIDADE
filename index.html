@@ -66,6 +66,17 @@
         </nav>
     </header>
 
+    <button class="audio-toggle" id="audio-toggle" type="button" aria-label="Reproduzir áudio" aria-pressed="false" title="Reproduzir áudio">
+        <svg class="audio-toggle__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+            <path class="audio-toggle__speaker" d="M8 19v10h8l10 8V11l-10 8H8Z" />
+            <path class="audio-toggle__wave" d="M31 18a9 9 0 0 1 0 12" />
+            <path class="audio-toggle__wave audio-toggle__wave--outer" d="M35 13a16 16 0 0 1 0 22" />
+        </svg>
+    </button>
+    <audio id="site-audio" preload="none">
+        <source src="audios/alexgrohl-interstellar-552512.mp3" type="audio/mpeg">
+    </audio>
+
     <!-- ========================================
          SEÇÃO HERO (PRINCIPAL)
          EDITÁVEL: Título, subtítulo, texto do botão

@@ -13,6 +13,32 @@ const WHATSAPP_MESSAGE = 'Olá! Gostaria de saber mais sobre os serviços de con
 const ANIMATION_DELAY = 100;
 
 /* ========================================
+   CONTROLE DE ÁUDIO
+======================================== */
+
+const audioToggle = document.getElementById('audio-toggle');
+const siteAudio = document.getElementById('site-audio');
+
+function updateAudioToggle(isPlaying) {
+    audioToggle.classList.toggle('is-playing', isPlaying);
+    audioToggle.setAttribute('aria-pressed', String(isPlaying));
+    audioToggle.setAttribute('aria-label', isPlaying ? 'Pausar áudio' : 'Reproduzir áudio');
+    audioToggle.title = isPlaying ? 'Pausar áudio' : 'Reproduzir áudio';
+}
+
+audioToggle.addEventListener('click', () => {
+    if (siteAudio.paused) {
+        siteAudio.play().catch(() => updateAudioToggle(false));
+    } else {
+        siteAudio.pause();
+    }
+});
+
+siteAudio.addEventListener('play', () => updateAudioToggle(true));
+siteAudio.addEventListener('pause', () => updateAudioToggle(false));
+siteAudio.addEventListener('ended', () => updateAudioToggle(false));
+
+/* ========================================
    NAVEGAÇÃO E MENU MOBILE
 ======================================== */
 
